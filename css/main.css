@@ -1,0 +1,110 @@
+body{
+    font-family: 'Arimo', sans-serif;
+       
+}
+.container{
+    height: 150px;
+    width: 100%;
+    box-sizing: content-box;
+    display: inline-flex;
+}
+.container div{
+    background-color: rgb(244, 244, 244);
+    width: 200px;
+    height: 100%;
+}
+.container div:hover{
+    background-color: white;
+}
+.container p{
+    font-size: 14px; 
+    font-family: 'Arimo',sans-serif;
+    font-weight: bold;
+    position: relative;
+    right: 13px;
+}
+.container span{
+    position: relative;
+    top: 12px;
+    left: 25%;
+    margin-left: 20px;
+    color:rgb(139, 139, 139);
+}
+.container span:hover{
+    color: rgb(172, 190, 219);
+}
+i {
+    position: relative;
+    bottom: 35px;
+    font-size: 11px;
+}
+.paper i{
+    position: relative;
+    left: 20px;
+}
+.ruby i{
+    position: relative;
+    right:20px;
+}
+.heart i{
+    position: relative;
+    left: 15px;
+}
+.coffe i{
+    position: relative;
+    right: 5px;
+}
+.food i{
+    left: 15px;
+}
+
+.paper p:last-child{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 15px;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    right: 55px;
+    bottom: 45px;
+    font-weight: normal;
+}
+.heart p:last-child{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    margin: 15px;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    right: 55px;
+    bottom: 45px;
+}
+.ruby p:last-child{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    margin: 15px;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    right: 55px;
+    bottom: 45px;
+}
+.coffe p:last-child{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    margin: 15px;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    right: 55px;
+    bottom: 45px;
+}
+.food p:last-child{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 10px;
+    font-size: 9px;
+    text-align: center;
+    position: relative;
+    right: 55px;
+    bottom: 45px;
+    font-weight: normal;
+}
